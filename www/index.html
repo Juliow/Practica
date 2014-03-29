@@ -22,22 +22,182 @@
         <meta charset="utf-8" />
         <meta name="format-detection" content="telephone=no" />
         <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
-        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=medium-dpi" />
         <link rel="stylesheet" type="text/css" href="css/index.css" />
+
+        <!-- hoja de stylo lungo -->
+
+        <link rel="stylesheet" href="css/lungo.css">
+            <link rel="stylesheet" href="css/lungo.icon.css">
+            <link rel="stylesheet" href="css/lungo.theme.css">
+            <link rel="stylesheet" href="css/hoja.css">
         <title>Hello World</title>
-    </head>
-    <body>
-        <div class="app">
-            <h1>PhoneGap</h1>
-            <div id="deviceready" class="blink">
-                <p class="event listening">Connecting to Device</p>
-                <p class="event received">Device is Ready</p>
-            </div>
-        </div>
-        <script type="text/javascript" src="phonegap.js"></script>
-        <script type="text/javascript" src="js/index.js"></script>
-        <script type="text/javascript">
-            app.initialize();
-        </script>
+</head>
+    <body class="app">
+            <section id="main"  data-transition="slide">
+                             <article id="inicio" class="active">
+                    <img src="./IMG/aplilobo.jpg" class="fondo" id="imagen1">
+            
+                </article>
+            </section>
+
+
+            <section id="equipo" data-transition="slide">
+                    <header data-title="MANADA BARBONA">
+
+                        <nav class="on-left">                           
+                            <button data-view-section="main" data-icon="home"></button>
+                        </nav>
+                        </header>
+
+                        <article id="articulo3" class="list">
+                        <ul>
+                        <li  class="thumb big">                         
+                            <img src="./IMG/julioalb_cara.jpg" id="imagen2">
+                            <div>
+                                <div class="on-right text tiny"> CATALOGO </div>
+                                <strong> Julio Lopez </strong>
+                                <span class="text tiny opacity"> Licenciado </span>
+                                <small> Informatica </small>
+                            </div>
+                            <li  class="thumb big">
+                            <img src="./IMG/alberto_cara.jpg" id="imagen3">
+                            <div>
+                                <div class="on-right text tiny"> CATALOGO </div>
+                                <strong> Alberto </strong>
+                                <span class="text tiny opacity"> Licenciado </span>
+                                <small> Administracion </small>
+                            </div>
+                                <li  class="thumb big">
+                            <img src="./IMG/rubens_cara.jpg" id="imagen4">
+                            <div>
+                                <div class="on-right text tiny"> CATALOGO </div>
+                                <strong> Ruben </strong>
+                                <span class="text tiny opacity"> Licenciado </span>
+                                <small> Fotografia </small>
+                            </div>
+                                <li  class="thumb big">
+                            <img src="./IMG/julio_cara.jpg" id="imagen5">
+                            <div>
+                                <div class="on-right text tiny"> CATALOGO </div>
+                                <strong> Julio Vargas </strong>
+                                <span class="text tiny opacity"> Licenciado </span>
+                                <small> Diseño y programacion </small>
+                            </div>
+                        </li>
+                        </ul>
+                        </article>
+            </section>
+
+            <section id="juliolopez" data-transition="slide">
+                    <header data-title="Julio Lopez">
+                        <nav class="on-left">                           
+                            <button data-view-section="equipo" data-icon="reply"></button>
+                        </nav>
+                    </header>
+                        <article id="julio">
+                    <ul>  
+                        <li>
+                           <center> <img src="./IMG/1.jpg" class="centrar"\> </center>
+                        </li>
+                            
+                    </ul>
+</article>
+              </section>
+
+
+             <section id="alberto" data-transition="slide">
+                    <header data-title="Alberto Ibarra">
+                        <nav class="on-left">                           
+                            <button data-view-section="equipo" data-icon="reply"></button>
+                        </nav>
+                                    </header>
+                        <article id="julio">
+                    <ul>  
+                        <li>
+                           <center> <img src="./IMG/3.jpg" class="centrar"\> </center>
+                        </li>
+                            <li >
+                            <center>   
+                           BARBAS BARBAS BARBAS BARBAS BARBAS BARBAS BARBAS BARBAS BARBAS        
+                                </center>
+                            </li>
+                    </ul>
+</article>
+               </section>   
+
+
+              <section id="ruben" data-transition="slide">
+                    <header data-title="Ruben Martinez">
+                        <nav class="on-left">                           
+                            <button data-view-section="equipo" data-icon="reply"></button>
+                        </nav>
+                                    </header>
+                        <article id="julio">
+                    <ul>  
+                        <li>
+                           <center> <img src="./IMG/4.jpg" class="centrar"\> </center>
+                        </li>
+                            <li >
+                            <center>   
+                           BARBAS BARBAS BARBAS BARBAS BARBAS BARBAS BARBAS BARBAS BARBAS        
+                                </center>
+                            </li>
+                    </ul>
+</article>
+               </section>
+
+
+               <section id="Juliovargas" data-transition="slide">
+                    <header data-title="Julio Vargas">
+                        <nav class="on-left">                           
+                            <button data-view-section="equipo" data-icon="reply"></button>
+                        </nav>
+                                    </header>
+                        <article id="julio">
+                    <ul>  
+                        <li>
+                           <center> <img src="./IMG/2.jpg" class="centrar"\> </center>
+                        </li>
+                            <li >
+                            <center>   
+                           BARBAS BARBAS BARBAS BARBAS BARBAS BARBAS BARBAS BARBAS BARBAS        
+                                </center>
+                            </li>
+                    </ul>
+</article>
+               </section>                       
+
+
+
+
+
+            <script type="text/javascript">
+                Lungo.init({
+                     name: 'hello-world'
+                });
+                    Lungo.dom("#imagen1").on("click",function(event){
+                        Lungo.Router.section("equipo"); 
+
+                        });
+
+                        Lungo.dom("#imagen2").on("click",function(event){
+                        Lungo.Router.section("juliolopez"); 
+
+                        });
+
+                    Lungo.dom("#imagen3").on("click",function(event){
+                        Lungo.Router.section("alberto");    
+
+                        });
+                    Lungo.dom("#imagen4").on("click",function(event){
+                        Lungo.Router.section("ruben");  
+
+                        });
+                    Lungo.dom("#imagen5").on("click",function(event){
+                        Lungo.Router.section("Juliovargas");    
+
+                        });
+            </script>
     </body>
 </html>
